@@ -1,7 +1,7 @@
 # ConvoWToPDF - Word to PDF Converter
 
-![App Screenshot](<img width="1920" height="1080" alt="Screenshot 2025-07-16 174405" src="https://github.com/user-attachments/assets/a3ac9e08-fe8e-4e50-921b-6448b0ab2484" />
-)
+<img width="1920" height="1080" alt="Screenshot 2025-07-16 174405" src="https://github.com/user-attachments/assets/95ee366b-6f3b-4cf0-b4b2-94521b9117a6" />
+
 
 A web application that converts Word documents (.doc, .docx) to PDF format while preserving original formatting. Files are processed securely and never stored on servers.
 
