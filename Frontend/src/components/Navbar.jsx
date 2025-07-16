@@ -2,18 +2,21 @@ import React from "react";
 
 function Navbar() {
   return (
-    <>
-      <div className="max-w-screen-2xl mx-auto container px-6 py-3 md:px-40 shadow-lg h-16 fixed">
-        <div className="flex justify-between">
-          <h1 className="text-2xl cursor-pointer font-bold">
-            Word<span className="text-3xl text-green-500">To</span>PDF
-          </h1>
-          <h1 className="mt-1 text-2xl cursor-pointer font-bold hover:scale-125 duration-300">
+    <header className="w-full bg-white shadow-xl fixed top-0 z-50 h-[80px]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+        <h1 className="text-2xl md:text-3xl font-extrabold cursor-pointer hover:text-green-600 transition-colors duration-300">
+          ConvoW<span className="text-green-500">To</span>PDF
+        </h1>
+        <nav>
+          <a
+            href="/"
+            className="relative text-lg md:text-xl font-semibold text-gray-800 hover:text-blue-600 transition-colors duration-300 after:content-[''] after:absolute after:w-0 after:h-[2px] after:left-0 after:-bottom-1 after:bg-blue-600 hover:after:w-full after:transition-all after:duration-300"
+          >
             Home
-          </h1>
-        </div>
+          </a>
+        </nav>
       </div>
-    </>
+    </header>
   );
 }
 
